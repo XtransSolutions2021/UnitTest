@@ -8,6 +8,7 @@ class Circle:
         >>> c1 = Circle(2.5)
         >>> c1.radius
         2.5
+
         """
         self.radius = radius
 
