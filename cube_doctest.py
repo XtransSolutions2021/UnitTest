@@ -5,9 +5,15 @@ from doctest import testmod
 def cube_cal(num):
   '''
   cube_cal function calculate te cube of the user input
-  >>> cube_cal(3) 
+  >>> cube_cal(3)
   27
+  >>> cube_cal(-3)
+  -27
+
   '''
+
+
+
   result=num*(num*num)
   return result
 
