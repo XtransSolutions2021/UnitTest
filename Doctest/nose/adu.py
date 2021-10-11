@@ -3,7 +3,7 @@ def add(self, x, y):
     """Takes two integers and adds them together to produce
     the result.
     >>> c = Calculate()
-    >>> c.add(1, 4)
+    >>> c.add(1, 3)
     6
     >>> c.add(24, 126)
     150
