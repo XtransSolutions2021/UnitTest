@@ -2,6 +2,7 @@ from mymath import *
 import nose
 
 
+
 def test_add_integers():
     assert add(5, 3) == 8
 
@@ -19,7 +20,7 @@ def test_add_strings():
 
 
 def test_divide_integers_even():
-    assert divide(2, 10) == 0.2
+    assert divide(2, 10) == 2
 
 
 def test_divide_integers_repetant():

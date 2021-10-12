@@ -1,7 +1,6 @@
 from nose.tools import with_setup
 from selenium import webdriver
 import time
-from time import sleep
 from selenium.webdriver.common.by import By
 
 

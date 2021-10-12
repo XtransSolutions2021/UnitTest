@@ -13,3 +13,9 @@ def multiply(a, b):
     'aaa'
     """
     return a * b
+
+def test_answer():
+    assert multiply(4,5) == 20
+
+def test_answer_a():
+    assert multiply("a", 5) == 'aaaaa'
