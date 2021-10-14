@@ -1,0 +1,32 @@
+1. Install nose using cmd:
+    a. pip install nose   -R
+    b. nose install
+    c. install nose
+    d. pip nose
+
+2. The nose project was released in
+    a. 2009
+    c. 2000
+    d. 2005            -R
+    e. 2006
+
+3. Nosetesting the modules (or files) that are picked up by the framework should start with
+    a. test
+    b. test_          -R
+    c. try
+    d. try_
+
+4.  Prints out the test names to show you exactly what is being run
+    a. -v                 -R
+    b. -s
+    c. -f
+    d. -e
+
+5.  What is test functions may define setup
+    a. setup()
+    b. setup_func()               -R
+    c. set
+    d. setup_test()
+
+
+6. Wirte a nose test program for addition two numbers. 

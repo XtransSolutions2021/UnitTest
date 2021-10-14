@@ -3,21 +3,21 @@
 
 #import RPi.GPIO as GPIO
 import time
-import GPIO as GPIO
+#import GPIO as GPIO
+
 import nose
 light = 33  # Board number
 
-
-def read_light():
+light_state = 0
+def read_light(light_state):
     while True:
-        light_state = input(light)
         if light_state == 0:
             print("Light Detected")
         elif light_state == 1:
             print("Light Not Detected")
-        light_state = nose.run()
         time.sleep(.3)
-
+def test_add_integers():
+    assert read_light(light_state) == 1
 
 
 if __name__ == '__main__':  # Program starting from here
