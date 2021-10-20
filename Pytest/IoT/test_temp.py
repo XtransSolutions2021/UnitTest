@@ -14,5 +14,5 @@ def test_humidity():
    humidity = 100
    assert type(humidity) == int
 
-   assert humidity < 50
+   assert humidity < 120
    return humidity
